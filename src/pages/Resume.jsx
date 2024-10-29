@@ -1,14 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { studies, experiences } from '../data/resume';
 
 function Resume() {
   return (
     <div>
       <h1>Mi Currículum</h1>
-      <nav>
-        <Link to="/">Ir a Inicio</Link>
-      </nav>
+
       <section>
         <h2>Experiencia Laboral</h2>
         <ul>
